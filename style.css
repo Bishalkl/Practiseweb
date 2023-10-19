@@ -14,7 +14,7 @@ body,html{
     display: grid;
     grid-template-columns:repeat(5, 35% 15% 20% 25% 5%);
     gap: 1em;
-    overflow: hidden;
+    overflow: hidden; /* for a cover whole body of page and remove a scroll bar.*/
 }
 
 /* utility class for color */
@@ -37,7 +37,7 @@ body,html{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0.6px;
+    padding: 0.6em;
 }
 
 .first-col h1{
